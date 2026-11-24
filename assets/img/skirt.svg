@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Rok plisket lavender">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFF8FC"/><stop offset="1" stop-color="#F5EDF7"/>
+    </linearGradient>
+    <linearGradient id="pleat" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#DCCCF5"/><stop offset="1" stop-color="#C3AEE8"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <circle cx="400" cy="480" r="278" fill="#F8DDEB" opacity=".68"/>
+  <ellipse cx="400" cy="880" rx="250" ry="24" fill="#C3AEE8" opacity=".35"/>
+  <path d="M300 300 L500 300 L590 860 Q400 900 210 860 Z" fill="url(#pleat)" stroke="#9D82CE" stroke-width="5" stroke-linejoin="round"/>
+  <rect x="292" y="288" width="216" height="42" rx="21" fill="#F8DDEB" stroke="#9D82CE" stroke-width="5"/>
+  <g stroke="#9D82CE" stroke-width="3" opacity=".55">
+    <path d="M340 348 L318 862"/><path d="M380 348 L368 872"/><path d="M420 348 L432 872"/><path d="M460 348 L482 862"/>
+  </g>
+  <text x="400" y="946" text-anchor="middle" font-family="Georgia, serif" font-size="26" fill="#59475A" opacity=".45" letter-spacing="4">PINKLOOP</text>
+</svg>

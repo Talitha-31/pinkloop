@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Blazer oversized blush pink">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFF8FC"/><stop offset="1" stop-color="#F3EBFA"/>
+    </linearGradient>
+    <linearGradient id="cloth" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F3C7DE"/><stop offset="1" stop-color="#E9A9CC"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <circle cx="400" cy="500" r="280" fill="#F8DDEB" opacity=".85"/>
+  <circle cx="640" cy="220" r="70" fill="#DCCCF5" opacity=".7"/>
+  <ellipse cx="400" cy="880" rx="220" ry="26" fill="#E9A9CC" opacity=".22"/>
+  <path d="M300 300 L348 268 L400 306 L452 268 L500 300 L562 356 L604 566 L540 588 L516 470 L516 790 Q400 822 284 790 L284 470 L260 588 L196 566 L238 356 Z"
+        fill="url(#cloth)" stroke="#C982A8" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M348 268 L400 344 L452 268 L424 366 L400 408 L376 366 Z" fill="#FFF6FB" stroke="#C982A8" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M400 408 L400 800" stroke="#C982A8" stroke-width="4" opacity=".55"/>
+  <circle cx="424" cy="560" r="13" fill="#FFF6FB" stroke="#C982A8" stroke-width="4"/>
+  <circle cx="424" cy="640" r="13" fill="#FFF6FB" stroke="#C982A8" stroke-width="4"/>
+  <path d="M306 640 L386 640 L386 700 L306 700 Z" fill="none" stroke="#C982A8" stroke-width="4" opacity=".6"/>
+  <path d="M414 640 L494 640 L494 700 L414 700 Z" fill="none" stroke="#C982A8" stroke-width="4" opacity=".6"/>
+  <text x="400" y="944" text-anchor="middle" font-family="Georgia, serif" font-size="26" fill="#59475A" opacity=".45" letter-spacing="4">PINKLOOP</text>
+</svg>

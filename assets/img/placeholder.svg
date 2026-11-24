@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Foto produk belum tersedia">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFF8FC"/><stop offset="1" stop-color="#F5EDF7"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <circle cx="400" cy="470" r="230" fill="#F8DDEB" opacity=".9"/>
+  <path d="M400 330 q54 0 54 54 t-54 54 q-54 0 -54 -54 t54 -54" fill="none" stroke="#E9A9CC" stroke-width="14"/>
+  <path d="M330 500 q70 70 140 0" fill="none" stroke="#E9A9CC" stroke-width="14" stroke-linecap="round"/>
+  <text x="400" y="700" text-anchor="middle" font-family="Georgia, serif" font-size="34" fill="#59475A" opacity=".55" letter-spacing="3">PINKLOOP</text>
+  <text x="400" y="742" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#59475A" opacity=".4" letter-spacing="2">FOTO SEGERA HADIR</text>
+</svg>

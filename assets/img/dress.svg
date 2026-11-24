@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Dress midi motif bunga">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F5EDF7"/><stop offset="1" stop-color="#FFF8FC"/>
+    </linearGradient>
+    <linearGradient id="cloth" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFF6FB"/><stop offset="1" stop-color="#F8DDEB"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <circle cx="400" cy="480" r="290" fill="#DCCCF5" opacity=".45"/>
+  <ellipse cx="400" cy="898" rx="230" ry="24" fill="#E9A9CC" opacity=".2"/>
+  <path d="M336 262 L364 244 Q400 286 436 244 L464 262 L474 430 L326 430 Z"
+        fill="url(#cloth)" stroke="#C982A8" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M352 300 L352 250 M448 300 L448 250" stroke="#C982A8" stroke-width="5" opacity=".7"/>
+  <path d="M326 430 L474 430 L568 872 Q400 916 232 872 Z" fill="url(#cloth)" stroke="#C982A8" stroke-width="5" stroke-linejoin="round"/>
+  <rect x="322" y="412" width="156" height="34" rx="17" fill="#E9A9CC" stroke="#C982A8" stroke-width="4"/>
+  <g fill="#E9A9CC" opacity=".75">
+    <circle cx="360" cy="520" r="12"/><circle cx="440" cy="560" r="9"/><circle cx="392" cy="616" r="14"/>
+    <circle cx="470" cy="676" r="10"/><circle cx="330" cy="700" r="11"/><circle cx="404" cy="770" r="9"/>
+    <circle cx="300" cy="600" r="8"/><circle cx="500" cy="600" r="8"/>
+  </g>
+  <g fill="#DCCCF5" opacity=".9">
+    <circle cx="382" cy="548" r="7"/><circle cx="420" cy="660" r="7"/><circle cx="350" cy="790" r="7"/>
+  </g>
+  <text x="400" y="946" text-anchor="middle" font-family="Georgia, serif" font-size="26" fill="#59475A" opacity=".45" letter-spacing="4">PINKLOOP</text>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Scarf motif sutra">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFF8FC"/><stop offset="1" stop-color="#F5EDF7"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <circle cx="400" cy="500" r="278" fill="#DCCCF5" opacity=".45"/>
+  <ellipse cx="400" cy="790" rx="230" ry="24" fill="#E9A9CC" opacity=".22"/>
+  <g stroke="#C982A8" stroke-width="5" stroke-linejoin="round">
+    <path d="M180 350 L400 470 L620 350 L620 640 L400 760 L180 640 Z" fill="#F8DDEB"/>
+    <path d="M180 350 L400 470 L400 760 L180 640 Z" fill="#F3C7DE"/>
+    <path d="M620 350 L400 470 L400 760 L620 640 Z" fill="#FFF6FB"/>
+    <path d="M400 470 L400 760" opacity=".6"/>
+    <path d="M252 420 L350 474 L350 700 L252 648 Z" fill="none" opacity=".5"/>
+    <path d="M450 474 L548 420 L548 648 L450 700 Z" fill="none" opacity=".4"/>
+  </g>
+  <g fill="none" stroke="#E9A9CC" stroke-width="4" opacity=".7">
+    <circle cx="480" cy="540" r="26"/><circle cx="530" cy="600" r="16"/><circle cx="460" cy="650" r="12"/>
+    <circle cx="300" cy="540" r="18"/><circle cx="330" cy="620" r="24"/>
+  </g>
+  <text x="400" y="900" text-anchor="middle" font-family="Georgia, serif" font-size="26" fill="#59475A" opacity=".45" letter-spacing="4">PINKLOOP</text>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Kemeja linen warna sand">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F5EDF7"/><stop offset="1" stop-color="#FFF8FC"/>
+    </linearGradient>
+    <linearGradient id="linen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F4E7D8"/><stop offset="1" stop-color="#E7D2B9"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <circle cx="400" cy="500" r="280" fill="#F8DDEB" opacity=".75"/>
+  <ellipse cx="400" cy="850" rx="200" ry="24" fill="#C9A47E" opacity=".22"/>
+  <path d="M310 306 L348 286 L400 340 L452 286 L490 306 L556 360 L592 556 L534 574 L514 486 L514 782 Q400 810 286 782 L286 486 L266 574 L208 556 L244 360 Z"
+        fill="url(#linen)" stroke="#B99171" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M348 286 L400 348 L452 286 L428 372 L400 400 L372 372 Z" fill="#FBF3EA" stroke="#B99171" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M400 400 L400 792" stroke="#B99171" stroke-width="4" opacity=".55"/>
+  <g fill="#FBF3EA" stroke="#B99171" stroke-width="3.5">
+    <circle cx="400" cy="470" r="9"/><circle cx="400" cy="540" r="9"/><circle cx="400" cy="610" r="9"/><circle cx="400" cy="680" r="9"/>
+  </g>
+  <path d="M318 520 L318 700 L378 700 L378 520 Z" fill="none" stroke="#B99171" stroke-width="4" opacity=".5"/>
+  <text x="400" y="922" text-anchor="middle" font-family="Georgia, serif" font-size="26" fill="#59475A" opacity=".45" letter-spacing="4">PINKLOOP</text>
+</svg>

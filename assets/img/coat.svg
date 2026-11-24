@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Coat wol beige">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F5EDF7"/><stop offset="1" stop-color="#FFF8FC"/>
+    </linearGradient>
+    <linearGradient id="wool" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#EFE2CE"/><stop offset="1" stop-color="#DFC9AB"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <circle cx="400" cy="500" r="285" fill="#F8DDEB" opacity=".7"/>
+  <ellipse cx="400" cy="890" rx="215" ry="24" fill="#B99171" opacity=".22"/>
+  <path d="M304 300 L352 276 L400 330 L448 276 L496 300 L558 352 L600 600 L540 618 L518 500 L518 860 Q400 890 282 860 L282 500 L260 618 L200 600 L242 352 Z"
+        fill="url(#wool)" stroke="#B99171" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M352 276 L400 330 L448 276 L432 420 L368 420 Z" fill="#FBF3EA" stroke="#B99171" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M400 420 L400 872" stroke="#B99171" stroke-width="4" opacity=".5"/>
+  <rect x="286" y="576" width="228" height="36" rx="8" fill="#E9A9CC" stroke="#B99171" stroke-width="4" opacity=".85"/>
+  <circle cx="330" cy="700" r="11" fill="#FBF3EA" stroke="#B99171" stroke-width="4"/>
+  <circle cx="330" cy="766" r="11" fill="#FBF3EA" stroke="#B99171" stroke-width="4"/>
+  <path d="M450 700 L530 700 L530 770 L450 770 Z" fill="none" stroke="#B99171" stroke-width="4" opacity=".6"/>
+  <text x="400" y="946" text-anchor="middle" font-family="Georgia, serif" font-size="26" fill="#59475A" opacity=".45" letter-spacing="4">PINKLOOP</text>
+</svg>

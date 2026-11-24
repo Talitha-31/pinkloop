@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Jaket denim vintage">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFF8FC"/><stop offset="1" stop-color="#F5EDF7"/>
+    </linearGradient>
+    <linearGradient id="denim" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#D6E6F3"/><stop offset="1" stop-color="#B9D2E8"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <circle cx="400" cy="500" r="278" fill="#F8DDEB" opacity=".8"/>
+  <ellipse cx="400" cy="862" rx="210" ry="24" fill="#B9D2E8" opacity=".35"/>
+  <path d="M306 312 L352 282 L400 316 L448 282 L494 312 L552 366 L590 540 L530 562 L512 470 L512 760 Q400 790 288 760 L288 470 L270 562 L210 540 L248 366 Z"
+        fill="url(#denim)" stroke="#7FA3C2" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M352 282 L400 352 L448 282 L424 380 L400 418 L376 380 Z" fill="#EAF3FA" stroke="#7FA3C2" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M400 418 L400 774" stroke="#7FA3C2" stroke-width="4" opacity=".6"/>
+  <path d="M312 570 L386 570 L386 632 L312 632 Z M414 570 L488 570 L488 632 L414 632 Z" fill="none" stroke="#7FA3C2" stroke-width="4" opacity=".75"/>
+  <circle cx="428" cy="520" r="9" fill="#EAF3FA" stroke="#7FA3C2" stroke-width="4"/>
+  <circle cx="428" cy="600" r="9" fill="#EAF3FA" stroke="#7FA3C2" stroke-width="4"/>
+  <path d="M288 770 L512 770" stroke="#7FA3C2" stroke-width="8" stroke-linecap="round" opacity=".55"/>
+  <text x="400" y="940" text-anchor="middle" font-family="Georgia, serif" font-size="26" fill="#59475A" opacity=".45" letter-spacing="4">PINKLOOP</text>
+</svg>
