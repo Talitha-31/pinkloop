@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Login Admin – PINKLOOP</title>
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,600&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/admin.css">
+  <link rel="icon" href="/assets/img/placeholder.svg">
+</head>
+<body class="login-body">
+  <div class="login-card">
+    <div class="login-art">
+      <div class="brand-lg">
+        <svg width="34" height="34" viewBox="0 0 44 44" aria-hidden="true">
+          <circle cx="22" cy="22" r="21" fill="#fff" opacity=".7"/>
+          <path d="M15 16h14a7 7 0 0 1 0 14H15z" fill="none" stroke="#E85D9B" stroke-width="3.2" stroke-linejoin="round"/>
+          <path d="M15 9v7" stroke="#E85D9B" stroke-width="3.2" stroke-linecap="round"/>
+        </svg>
+        PINK<span>LOOP</span>
+      </div>
+      <div>
+        <h2>Kelola toko preloved-mu dari satu tempat.</h2>
+        <p>Pantau produk, pesanan, pelanggan, dan performa penjualan PINKLOOP secara real-time.</p>
+        <ul>
+          <li>Statistik penjualan otomatis</li>
+          <li>Manajemen produk &amp; kategori</li>
+          <li>Update status pesanan</li>
+          <li>Laporan penjualan per periode</li>
+        </ul>
+      </div>
+      <div class="small" style="color:#6d5c6e">Preloved Fashion, New Stories.</div>
+    </div>
+
+    <form class="login-form" id="loginForm" novalidate>
+      <h1>Masuk ke Dashboard</h1>
+      <p class="sub">Area khusus admin PINKLOOP.</p>
+
+      <div class="login-error" id="loginError" role="alert"></div>
+
+      <div class="field">
+        <label for="username">Username</label>
+        <input id="username" name="username" type="text" placeholder="Masukkan username" autocomplete="username" required>
+      </div>
+
+      <div class="field">
+        <label for="password">Password</label>
+        <div class="pass-wrap">
+          <input id="password" name="password" type="password" placeholder="Masukkan password" autocomplete="current-password" required>
+          <button class="pass-toggle" type="button" id="togglePassword" aria-label="Tampilkan password">Lihat</button>
+        </div>
+      </div>
+
+      <button class="btn btn-primary btn-block" type="submit" id="loginBtn" style="margin-top:.4rem">Login</button>
+
+      <div class="login-hint">Akun demo: <b>admin</b> / <b>admin</b></div>
+      <a class="login-foot" href="/index.html" style="display:block">← Kembali ke halaman toko</a>
+    </form>
+  </div>
+
+  <script src="/assets/js/store.js"></script>
+  <script src="/assets/js/ui.js"></script>
+  <script src="/assets/js/admin-login.js"></script>
+</body>
+</html>

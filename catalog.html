@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Katalog – PINKLOOP</title>
+  <meta name="description" content="Jelajahi seluruh koleksi fashion preloved PINKLOOP: wanita, pria, anak-anak, remaja, tas dan aksesori.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,600&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <header id="site-header"></header>
+
+  <main>
+    <section class="page-head">
+      <div class="container">
+        <div class="breadcrumb"><a href="/index.html">Beranda</a> <span>/</span> <span>Katalog</span></div>
+        <h1>Katalog Preloved</h1>
+        <p id="catalogSubtitle">Semua produk terkurasi, siap pakai, dan siap dikirim.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="catalog-layout">
+          <aside class="filters" id="filters">
+            <div class="filter-group">
+              <h4>Kategori</h4>
+              <div class="filter-list" id="categoryFilter"></div>
+            </div>
+            <div class="filter-group">
+              <h4>Filter Harga</h4>
+              <div class="price-inputs">
+                <input type="number" id="minPrice" placeholder="Min" min="0" inputmode="numeric" aria-label="Harga minimum">
+                <span class="muted">–</span>
+                <input type="number" id="maxPrice" placeholder="Max" min="0" inputmode="numeric" aria-label="Harga maksimum">
+              </div>
+              <div class="row-between" style="margin-top:.6rem">
+                <button class="btn btn-soft btn-sm" id="applyPrice">Terapkan</button>
+                <button class="link-danger" id="resetFilter" type="button">Reset</button>
+              </div>
+            </div>
+            <div class="filter-group">
+              <h4>Kondisi</h4>
+              <div class="filter-list" id="conditionFilter"></div>
+            </div>
+          </aside>
+
+          <div>
+            <div class="toolbar">
+              <form class="search-field" id="catalogSearchForm">
+                <span class="muted" aria-hidden="true">⌕</span>
+                <input type="search" id="catalogSearch" placeholder="Cari nama produk atau merek…" aria-label="Cari produk">
+              </form>
+              <select id="sortSelect" aria-label="Urutkan produk">
+                <option value="newest">Terbaru</option>
+                <option value="popular">Terpopuler</option>
+                <option value="price-asc">Harga: rendah → tinggi</option>
+                <option value="price-desc">Harga: tinggi → rendah</option>
+              </select>
+              <button class="btn btn-ghost btn-sm filter-toggle" id="filterToggle" type="button">Filter</button>
+            </div>
+            <div class="row-between" style="margin-bottom:1rem">
+              <span class="result-count" id="resultCount"></span>
+              <button class="link-danger" id="clearAll" type="button" hidden>Hapus semua filter</button>
+            </div>
+            <div class="product-grid" id="catalogGrid"></div>
+            <div id="catalogEmpty" hidden></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="site-footer"></footer>
+
+  <script src="/assets/js/store.js"></script>
+  <script src="/assets/js/ui.js"></script>
+  <script src="/assets/js/pages/catalog.js"></script>
+</body>
+</html>

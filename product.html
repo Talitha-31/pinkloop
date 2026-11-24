@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Detail Produk – PINKLOOP</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,600&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <header id="site-header"></header>
+
+  <main>
+    <section class="page-head">
+      <div class="container">
+        <div class="breadcrumb" id="breadcrumb"><a href="/index.html">Beranda</a> <span>/</span> <a href="/catalog.html">Katalog</a></div>
+        <h1 id="pageTitle">Detail Produk</h1>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container" id="detailRoot"></div>
+
+      <div class="container" id="relatedSection" style="margin-top:3rem" hidden>
+        <div class="section-head">
+          <div>
+            <span class="eyebrow">Kamu mungkin suka</span>
+            <h2>Produk serupa</h2>
+          </div>
+          <a class="link-more" href="/catalog.html">Lihat semua →</a>
+        </div>
+        <div class="product-grid" id="relatedGrid"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="site-footer"></footer>
+
+  <script src="/assets/js/store.js"></script>
+  <script src="/assets/js/ui.js"></script>
+  <script src="/assets/js/pages/product.js"></script>
+</body>
+</html>
